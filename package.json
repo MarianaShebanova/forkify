@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --no-minify index.html --out-dir ./dist"
+  },
+  "author": "Mariana Shebanova",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.9.7",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.16.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
